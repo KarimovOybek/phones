@@ -1,0 +1,298 @@
+@media (prefers-color-scheme: dark ) {
+
+    :root{
+        --primary-text-color: #fff;
+        --primary-bg-color: #313131;
+        --primary-border: #fff;
+        --secondary-border: #313131;
+        --search-btn: #fff;
+        --primary-grid-bg: rgba(255, 255, 255, 0.904);
+        --collapse-bg: #0C0C0C;
+    }
+    .header__logo::after{
+        content: url(../img/svg/light_logo.svg);
+    }
+    .logo__ps-img::before{
+        content: url(../img/svg/dark__ps5.svg);
+    }
+}
+
+
+
+@media (max-width: 1320px){
+    .grid{
+    }
+    .cell_phone-desc{
+        overflow-x: auto;
+    }
+    .lg{
+        grid-row: 2 span;
+    }
+    .md{
+        grid-row: 2 span;
+    }
+    .sm{
+        grid-column: 2 span;
+    }
+    .sm1{
+        grid-column: 2 span;
+    }
+    .grid-img{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .sm-img{
+        right: 0;
+    }
+}
+@media (max-width: 1200px){
+    .header__link{
+        margin: 0 10px;
+    }
+    .ps__title{
+        width: 300px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 1024px){
+    .icon__style{
+        font-size: 20px;
+    }
+    .phone__img{
+        width: 250px;
+        height: 250px;
+    }
+    .ps__title{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 992px){
+    .header__content-title {
+        margin: 30px 0;
+    }
+    .header__carousel-dot{
+        display: none;
+    }
+    .phone__title{
+        font-size: 14px;
+    }
+    .phone__price{
+        font-size: 12px;
+    }
+    .cell__phone{
+        padding: 30px 0;
+    }
+    .title{
+        margin: 40px 0 20px 0;
+    }
+    .PS5{
+        width: 600px;
+        height: 300px;
+    }
+    .ps__title{
+        font-size: 35px;
+    }
+    .footer__search{
+        width: 430px;
+    }
+    .footer__search-btn{
+        width: 190px;
+    }
+    .subscribe{
+        font-size: 14px;
+    }
+    .btn.btn-outline-success.search-btn.fonts{
+        font-size: 14px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: unset;
+    }
+    .search__content{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-brand{
+        text-align: center;
+    }
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon__style{
+        margin: 20px;
+    }
+    .footer__list {
+        margin-top: 0px;
+    }
+
+    
+}
+@media (max-width: 768px){
+
+    .for__sale-span,
+    .for__sale-span2{
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .grid-img{
+        width: 300px;
+    }
+    .item__price,
+    .item__name{
+        font-size: 16px;
+    } 
+    .ads__link{
+        font-size: 12px;
+    }
+    .header__content-title{
+        font-size: 36px;
+        margin: 0px 10px;
+    }
+    .title{
+        font-size: 25px;
+        margin: 20px 0 10px 0;
+    }
+    .phone__img{
+        width: 220px;
+        height: 220px;
+    }
+    .phone__title{
+        font-size: 12px;
+    }
+    .fonts{
+        font-size: 12px;
+    }
+    .extra__span{
+        display: none;
+    }
+    .all-btn {
+        padding: 7px 0;
+        font-size: 14px;
+    }
+    .header__content-btn{
+        width: 150px;
+    }
+    .ps__title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .seller__desc{
+        height: 300px;
+    }
+    .PS5{
+        width: 400px;
+        height: 250px;
+    }
+    .footer__form{
+        width: 100%;
+    }
+    .footer__search{
+        display: none;
+    }
+    .footer__search-btn{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 576px){
+    .ads__span{
+        display: none;
+    }
+    .ads__link{
+        font-size: 10px;
+    }
+    .ads__icon {
+        font-size: 12px;
+    }
+    .header__content-title{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .item__name{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .footer__search{
+        width: 300px;
+    }
+    .footer__search-btn{
+        width: 150px;
+    }
+    .subscribe{
+        text-align: center;
+        display:inline-block;
+        width: 200px;
+        margin: 0 0 20px 0;
+    }
+    .PS5{
+        width: 300px;
+        height: 180px;
+    }
+    .phone__img{
+        width: 180px;
+        height: 180px;
+        margin: 0 20px;
+    }
+    .header{
+        padding-top: 20px;
+    }
+    .icon__style {
+        margin: 20px 10px 0 10px;
+        padding: 0;
+    }
+    .footer__icon-list{
+        padding: 0;
+    }
+
+}
+@media (max-width: 484px){
+    .ps__title{
+        width: 200px;
+        line-height: 50px;
+    }
+    
+    .md,
+    .sm,
+    .sm1,
+    .lg{
+        grid-row: 1 span;
+        grid-column: 4 span;
+    }
+}
+@media (max-width: 414px){
+    .header__content-title {
+        font-size: 18px;
+    }
+    .ads__link{
+        margin: 0 auto;
+    }
+    .border-search{
+        font-size: 14px;
+    }
+    .item__price{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .grid-img {
+        right: 0;
+    }
+    .item__name{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .fonts{
+        font-size: 9px;
+    }
+}
+@media (max-width: 378px){
+    .search__icon {
+        font-size: 10px;
+    }
+    .btn.btn-outline-success.search-btn.fonts{
+        font-size: 9.5px;
+    }
+}
+/* @media (max-width: 320px){} */
